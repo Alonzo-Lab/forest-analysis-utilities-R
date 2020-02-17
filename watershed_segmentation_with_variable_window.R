@@ -4,8 +4,8 @@
 # Origin Date:  2/5/2020
 # Purpose:      Canopy segmentation and analysis 
 # R version:    3.6.2
-# Input file:   CHM
-# Output files: Not yet coded.
+# Input file:   a CHM
+# Output files: Not yet coded
 # Notes:        
 #All of this code is copied from:
 #https://cran.r-project.org/web/packages/ForestTools/vignettes/treetopAnalysis.html
