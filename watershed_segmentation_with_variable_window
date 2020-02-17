@@ -4,7 +4,7 @@
 # Origin Date:  2/5/2020
 # Purpose:      Canopy segmentation and analysis 
 # R version:    3.6.2
-# Input file:   a CHM
+# Input file:   CHM
 # Output files: Not yet coded.
 # Notes:        
 #All of this code is copied from:
