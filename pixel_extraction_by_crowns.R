@@ -1,13 +1,14 @@
 #Preamble ----
 # Author:       Mike Alonzo
 #
-# Date:        3/4/2020
+# Date:        3/5/2020
 # Origin Date:  3/4/2020
 # Purpose:      Use polygons to extract pixels from an arbitrary number of image layers of arbitrary resolutions. 
 #               Make into a data frame or other useful object.
 # R version:    3.6.2
 # Input file:   shapefile of polygons; image layers
-# Output files: TBD
+# Output files: The main thing is that you will have a data frame with all of your pixel values. Each pixel is also labled
+#               with a polygon UID and class name (e.g., species, LCZ type). Could also output a csv, for example.
 # Notes:        
 # Useful documentation: https://www.rdocumentation.org/packages/raster/versions/3.0-12/topics/extract
 #If loading shapefile with readOGR (https://www.neonscience.org/dc-shapefile-attributes-r)
