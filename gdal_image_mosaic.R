@@ -21,7 +21,7 @@ setwd(image_dir)
 #name your output mosaic
 output_filename <- "test_mosaic.tif"
 #Find tifs in folder (this code avoids things like ".tif.ovr")
-file <- list.files(pattern = '^.*\\.tif$', full.names = TRUE)
+file <- list.files(pattern = '\\.tif$', full.names = TRUE)
 
 # We'll pre-check to make sure there is a valid GDAL install
 # and that raster and rgdal are also installed.
